@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const controller = require("../controllers/groupController");
-const authenticate = require("../moddlewares/authMiddleware");
+const authenticate = require("../middlewares/authMiddleware");
 
 // Route handler for the home page
 router.get("/", controller.getAllGroups);

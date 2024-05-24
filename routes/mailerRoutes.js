@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const { upload } = require("../moddlewares/icon-uploader");
+const { upload } = require("../middlewares/icon-uploader");
 
 const controller = require("../controllers/mailerController");
 

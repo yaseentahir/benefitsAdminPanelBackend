@@ -14,8 +14,8 @@ const categoryRoutes = require("./categoryRoutes");
 const protectionFormRoutes = require("./protectionFormRoutes");
 const contactFormRoutes = require("./contactFormRoutes");
 const mailRoutes = require("./mailerRoutes");
-const authenticate = require("../moddlewares/authMiddleware");
-const errorHandler = require("../moddlewares/errorMiddleware");
+const authenticate = require("../middlewares/authMiddleware");
+const errorHandler = require("../middlewares/errorMiddleware");
 // Add more route files as needed
 
 // Register routes

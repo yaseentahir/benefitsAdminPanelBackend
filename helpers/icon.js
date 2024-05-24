@@ -2,7 +2,7 @@ const path = require("path");
 const {
   uploadFileS3,
   deleteLocalFile,
-} = require("../moddlewares/icon-uploader");
+} = require("../middlewares/icon-uploader");
 
 const directoryPath = "../uploads";
 const absolutePath = path.resolve(__dirname, directoryPath);

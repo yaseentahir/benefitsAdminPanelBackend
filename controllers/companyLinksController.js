@@ -1,7 +1,7 @@
 const db = require("../models/index");
 const CustomError = require("../helpers/customError");
 const iconUploaderHelper = require("../helpers/icon");
-const { deleteFileS3 } = require("../moddlewares/icon-uploader");
+const { deleteFileS3 } = require("../middlewares/icon-uploader");
 const Companylink = db.companyLinksModel;
 const Card = db.homeCards;
 const Company = db.companyCardModel;

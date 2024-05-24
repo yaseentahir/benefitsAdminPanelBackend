@@ -2,7 +2,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const errorHandler = require("./moddlewares/errorMiddleware");
+const errorHandler = require("./middlewares/errorMiddleware");
 require("dotenv").config();
 const routes = require("./routes");
 

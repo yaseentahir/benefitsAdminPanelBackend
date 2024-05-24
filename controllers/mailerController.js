@@ -1,4 +1,4 @@
-const async = require("../moddlewares/async");
+const async = require("../middlewares/async");
 
 const iconUploaderHelper = require("../helpers/icon");
 const path = require("path");

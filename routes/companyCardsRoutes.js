@@ -2,8 +2,8 @@ const express = require("express");
 const router = express.Router();
 
 const controller = require("../controllers/companyCardsController");
-const { upload } = require("../moddlewares/icon-uploader");
-const authenticate = require("../moddlewares/authMiddleware");
+const { upload } = require("../middlewares/icon-uploader");
+const authenticate = require("../middlewares/authMiddleware");
 
 // Route handler for the home page
 router.get("/", controller.getAllCompanyCards);
